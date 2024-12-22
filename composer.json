@@ -1,0 +1,21 @@
+{
+    "name": "usman/laravel-make-helper",
+    "description": "A package to easily create static helper classes for you laravel applications.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Usman\\LaravelMakeHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Usman Zahid",
+            "email": "developerusman@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "11"
+    }
+}
