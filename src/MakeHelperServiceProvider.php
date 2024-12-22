@@ -13,6 +13,6 @@ class MakeHelperServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->commands(HelperMakeCommand::class);
+        $this->commands(MakeHelper::class);
     }
 }
