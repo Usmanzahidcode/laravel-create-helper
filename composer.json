@@ -1,6 +1,7 @@
 {
   "name": "usman-zahid/laravel-make-helper",
   "description": "A package to easily create static helper classes for your Laravel application",
+  "version": "1.0.0",
   "type": "library",
   "license": "MIT",
   "autoload": {

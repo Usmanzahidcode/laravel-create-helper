@@ -2,11 +2,17 @@
 
 namespace {{ namespace }};
 
-/**
- * Class {{ class }}
- * @package App\Helpers
- */
 class {{ class }}
 {
-
+    /**
+     * Generate a brief description of the package and its author.
+     *
+     * @return string
+     */
+    public static function describe(): string
+    {
+        return sprintf(
+            'Laravel Make Helper by Usman Zahid: A package to create static helper classes for your Laravel application.'
+        );
+    }
 }
